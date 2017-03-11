@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carro de compras</title>
+</head>
+<body>
+    <p>Ejemplo de carro de compras usando Webpay Soap.</p>
+    <form action='{{webpay_url}}' method='POST'>
+        Token: {{webpay_token}}<br>
+        Orden de Compra: {{buyOrder}}<br>
+        <input type='hidden' name='token_ws' value='{{webpay_token}}'>
+        <input type="submit" value='Pagar'>
+    </form>
+</body>
+</html>
