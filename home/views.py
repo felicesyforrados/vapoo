@@ -2,7 +2,7 @@ from random import randrange
 
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
-from webpay.api import WebpayNormalAPI
+from webpay.normal.api import WebpayNormalAPI
 
 
 def carro(request):
